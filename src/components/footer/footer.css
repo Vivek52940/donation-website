@@ -1,0 +1,15 @@
+.footer-container{
+    margin:0 auto;
+    background-image: url('back2.jpg');
+    background-position: center;
+    color:white;
+    background-color: black;
+    height:8vh;
+    padding-top: 4vh;
+}
+.text{
+    text-align: center;
+}
+footer{
+    display: block;
+}

@@ -1,0 +1,20 @@
+.item11 div{
+    font-size: 20px;
+    padding:10px;
+   
+}
+.content1{
+    width:60vw;
+    
+}
+.item{
+      width:50%;
+}
+.item:hover{
+    transform: scale(1.01);
+    
+}
+.item img:hover{
+    opacity: 1;
+    cursor: pointer;
+}

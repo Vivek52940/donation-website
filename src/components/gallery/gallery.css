@@ -1,0 +1,43 @@
+.gallery{
+    height:80vh;
+    background-image: url('back2.jpg');
+    background-position: center;
+}
+img{
+    height:10vh;
+}
+header{
+    width:10vw;
+    text-align:center;
+    margin: 0 auto;
+}
+
+span h1{
+    font-family: 'Lobster Two', cursive;
+    font-size: 30px;
+    text-align: center;
+    border-bottom:2px solid orange;
+    
+}
+main{
+    margin-left:120px;
+}
+.box{
+    display: block;
+    float:left;
+    width:24%;
+    height:30vh;
+    padding:10px;
+    overflow: hidden;
+}
+img{
+    width:90%;
+    height:100%;
+    border-radius: 10px;
+    opacity:0.5;
+}
+.box img:hover{
+    transform:scale(1.5,1.5);
+    transition:.3s transform;
+    opacity: 1;
+}

@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+header h1{
+    font-family: 'Playball', cursive;
+    font-size:30px;
+    color: white;
+    border-bottom: 2px solid orange;
+   
+}
+p{
+    font-family: 'Lobster Two', cursive;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    color:black;
+    height:100vh;
+    background-image: url('back2.jpg');
+    background-position: center;
+}
+.content1{
+    display: flex;
+    background:none;
+    position: absolute;
+    border:none;
+
+    height:80vh;
+    width:80vw;
+    padding-top:20px;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+.item11{
+    flex:1;
+    background-color:#b0bec5;
+    height: 100%;
+    width:100;
+    padding-top:100px;
+    padding-left: 10px;
+    padding-right:10px;
+    border-radius: 20px;
+    margin-right: 10px;
+    
+}
+.item11:hover{
+    transform: scale(1.01);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.item11 p{
+   font-size: 20px;
+   margin-top: 10px;
+   
+}
+.item22{
+    flex:1;
+    background-image :url('https://s7641.pcdn.co/wp-content/uploads/2020/09/Donation-Form.jpg');
+    background-size: 100% 100%;
+    border-radius: 20px;
+    
+}   
+.item22:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: scale(1.01);
+} 
